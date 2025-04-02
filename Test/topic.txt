@@ -1,0 +1,24 @@
+Hoisting
+Curring 
+Callback Hell 
+Event loop
+clousers
+callback functions 
+let var const 
+functions vs class components 
+use callbacks 
+use memo 
+memoisation 
+throttle 
+debouncing 
+custom hook 
+flex vs grid
+undefined vs not defined
+Temporal dead zone in hoisting 
+let var const 
+DOM
+state vs props 
+React lifecycle methods
+usememo
+strict mode
+controlled vs uncontrolled components

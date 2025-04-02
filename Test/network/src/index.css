@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+
+
+/* Full-screen container */
+body {
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+/* Center the preview container */
+.preview-container {
+  /* position: relative; */
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Arrange icons in an arc */
+.icon-arc-container {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+
+/* Ensure text remains visible */
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+}
+
+.icon-text {
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Adjust arc for smaller screens */
+@media (max-width: 480px) {
+  .icon-arc-container {
+    max-width: 260px;
+    height: 100px;
+  }
+  .icon-container {
+    width: 60px;
+  }
+  .icon-text {
+    font-size: 0.7rem;
+  }
+}
