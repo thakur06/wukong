@@ -42,7 +42,7 @@
 body {
   width: 100dvw;
   overflow-x: hidden;
-  background-color: #443627;
+  background-color: #0c0a0b;
   font-family: "General Sans", sans-serif;
 }
 
@@ -139,8 +139,8 @@ body {
 .hero-heading {
   text-transform: uppercase;
   font-family: "zentry";
-  font-weight: 900;
-  font-size: 3rem;
+  font-weight: 200;
+  font-size: 2rem;
 }
 
 @media (min-width: 640px) {
